@@ -41,7 +41,7 @@ useEffect(()=>{
   return (
     <div className="mb-2 bg-orange-200 px-5 py-3 rounded-2xl ">
     {enableEdit ? (
-      <form onSubmit={handleEdit} className="flex items-center">
+      <form onSubmit={handleEdit} className="flex items-center justify-between ">
         <input
         ref={inputRef}
           type="text"
@@ -51,7 +51,7 @@ useEffect(()=>{
         />
         <button
           type="submit"
-          className="px-4 py-2 bg-blue-300 text-white rounded-md"
+          className="px-4 py-2 bg-blue-700 text-white rounded-md"
         >
           Save
         </button>
