@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import InputField from "./componets/InputField";
 import { Todo } from "./Model";
 import Task from "./componets/Task";
